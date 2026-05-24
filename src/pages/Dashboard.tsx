@@ -98,7 +98,7 @@ const Dashboard = () => {
         .forEach((skill) => formData.append("jobSkills", skill));
 
       const response = await axios.post(
-        "http://localhost:8080/api/resume/analyze",
+        `${import.meta.env.VITE_API_URL || "http://localhost:8080"}/api/resume/analyze`,
         formData,
         { headers: { "Content-Type": "multipart/form-data" } }
       );
