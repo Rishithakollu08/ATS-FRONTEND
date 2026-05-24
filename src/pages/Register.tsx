@@ -9,23 +9,23 @@ const Register = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const inputStyle = {
-    padding: "14px",
-    borderRadius: "12px",
-    border: "1px solid #444",
-    background: "#1f1f2b",
-    color: "white",
-    fontSize: "15px",
-    outline: "none",
-    transition: "0.3s",
-  };
+  // const inputStyle = {
+  //   padding: "14px",
+  //   borderRadius: "12px",
+  //   border: "1px solid #444",
+  //   background: "#1f1f2b",
+  //   color: "white",
+  //   fontSize: "15px",
+  //   outline: "none",
+  //   transition: "0.3s",
+  // };
 
-  const nameInputStyle = {
-    ...inputStyle,
-    background: "#252538",
-    border: "1px solid #7c6fff",
-    boxShadow: "0 0 8px rgba(124,111,255,0.2)",
-  };
+  // const nameInputStyle = {
+  //   ...inputStyle,
+  //   background: "#252538",
+  //   border: "1px solid #7c6fff",
+  //   boxShadow: "0 0 8px rgba(124,111,255,0.2)",
+  // };
 
   const handleRegister = async (e: any
   ) => {
